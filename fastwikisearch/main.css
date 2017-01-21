@@ -1,0 +1,48 @@
+a {
+  color: #003366;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.searchbox {
+  margin-top: 25px;
+}
+
+.resultBox {
+    background-color: wheat;
+    border-left: 5px solid wheat;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.resultBox h2 {
+  padding-top: 10px;
+}
+
+.resultBox:hover, .resultBox:active, .resultBox:focus  {
+  border-left-color: deepskyblue;
+}
+
+.resultBox a:hover {
+  color: #003366;
+}
+
+.resultBox .description {
+  padding-bottom: 15px;
+}
+
+#searchResults {
+  padding-bottom: 150px;
+}
+
+.btn-secondary {
+    color: #d0d0d0;
+    background-color: #375a7f;
+    border-color: #375a7f;
+}
+
+.searchbox button {
+  margin-top: 15px;
+}

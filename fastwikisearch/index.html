@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Machine</title>
+	<link rel="stylesheet" href="https://bootswatch.com/darkly/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+
+<body>
+    
+<div id="msg"></div>
+
+    <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center title">
+                    <h1>Fast Wiki Search</h1>
+                </div>
+            </div>
+            <div class="row searchbox">
+                <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+                   <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Enter Search Term Here" id="searchTerm">
+                  </div>
+                </div>
+                <div class="col-xs-6 col-md-4 col-md-offset-2">
+                  <div class="form-group">
+                    <button id="btnRandom" class="btn btn-secondary btn-block">Random</button>
+                  </div>
+                </div>
+                  <div class="col-xs-6 col-md-4">
+                  <div class="form-group">
+                   <button id="btnSearch" class="btn btn-primary btn-block">Search</button>
+                  </div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="searchResults"></div>    
+                </div>    
+            </div>
+    </div>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
